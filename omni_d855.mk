@@ -36,7 +36,7 @@ PRODUCT_COPY_FILES += \
 	device/lge/d855/postrecoveryboot.sh:recovery/root/sbin/postrecoveryboot.sh \
 	device/lge/d855/sign:recovery/root/res/sign
 
-PRODUCT_COPY_FILES += device/lge/d855/fstab.g3:recovery/root/fstab.g3
+PRODUCT_COPY_FILES += device/lge/d855/twrp.fstab:recovery/root/fstab.g3
 PRODUCT_COPY_FILES += device/lge/d855/twrp.fstab:recovery/root/etc/twrp.fstab
 
 
